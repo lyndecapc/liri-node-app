@@ -8,7 +8,7 @@ require("dotenv").config();
 var keys = require("./keys");
 
 // Import the node-spotify-api NPM package.
-var Spotify = require("node-spotify-api");
+var Spotify = require("node-spotify-api");+*    
 
 // Import the axios npm package.
 var axios = require("axios");
@@ -172,7 +172,19 @@ var doWhatItSays = function() {
 var pick = function(command, commandData) {
       //TODO:  Write your code below
       // This will be the main function to control which method to call. See function "runThis" is calling this pick method
-
+switch (command) {
+    case "concert-this":
+        getMyBands(commandData);
+        break;
+    case "spotify-this-song":
+        getMeMovie(functionData);
+        break;
+    case "do-what-it-says":
+        doWhatItSays();
+        break;
+        default:
+            console.log("LIRI doesn't know that");
+}
  
 };
 
