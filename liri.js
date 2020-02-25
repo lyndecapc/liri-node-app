@@ -8,7 +8,7 @@ require("dotenv").config();
 var keys = require("./keys");
 
 // Import the node-spotify-api NPM package.
-var Spotify = require("node-spotify-api");+*    
+var Spotify = require("node-spotify-api");  
 
 // Import the axios npm package.
 var axios = require("axios");
@@ -177,7 +177,10 @@ switch (command) {
         getMyBands(commandData);
         break;
     case "spotify-this-song":
-        getMeMovie(functionData);
+        getMeSpotify(commandData);
+        break;
+    case "movie-this":
+        getMeMovie(commandData);
         break;
     case "do-what-it-says":
         doWhatItSays();
