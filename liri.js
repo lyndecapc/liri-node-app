@@ -55,9 +55,9 @@ var command = process.argv[2];
 
 // Function for running a Spotify search
 var getMeSpotify = function (songName) {
-  if (songName === undefined) {
-    songName = "What's my age again";
-  }
+  if (songName == "") {
+    songName = "We are the Champions";
+  };
   spotify.search({
       type: "track",
       query: songName
@@ -111,22 +111,26 @@ var getMyBands = function (searchTerm) {
 };
 
 // Function for running a Movie Search
-var getMeMovie = function (movieName) {
-  if (movieName === undefined) {
-    movieName = "Mr Nobody";
-  }
+// var getMeMovie = function (movieName) {
+//   if (movieName === "") {
+//     movieName = "Mr Nobody";
+//   };
 
-  var urlHit = "CREATE-THE-URL-HERE";
+//   var urlHit = "CREATE-THE-URL-HERE";
 
-  axios.get(urlHit).then(
-    function (response) {
-      var jsonData = response.data;
-    }
-  );
-};
+//   axios.get(urlHit).then(
+//     function (response) {
+//       var jsonData = response.data;
+//     }
+//   );
+// };
 
 
 function getMyMovie(searchTerm) {
+  if (searchTerm === "") {
+    searchTerm = "Mr Nobody";
+  };
+
   console.log("http://www.omdbapi.com/?t=" + searchTerm + "&y=&plot=short&apikey=trilogy")
   axios.get("http://www.omdbapi.com/?t=" + searchTerm + "&y=&plot=short&apikey=trilogy").then(function (response) {
 
