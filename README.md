@@ -40,10 +40,10 @@ When do-what-it-says command is run:
 A random.txt file with the movie-this command will return results for the movie "Major League"
 
 Technologies Used:
-JavaScript
-Node.js
-Spotify API
-Bands in Town API
+JavaScript,
+Node.js,
+Spotify API,
+Bands in Town API,
 OMDB API
 
 Video:
