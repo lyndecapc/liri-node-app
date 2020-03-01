@@ -33,10 +33,11 @@ When movie-this command is used the following information will be returned:
 6. Language of the movie.
 7. Plot of the movie.
 8. Actors in the movie.
+
 If the user doesn't type a movie in, the program will return information for the movie 'Mr. Nobody.
 
 When do-what-it-says command is run:
-A random.txt file with the movie-this command that will return results for the movie "Major League"
+A random.txt file with the movie-this command will return results for the movie "Major League"
 
 Technologies Used
 JavaScript
