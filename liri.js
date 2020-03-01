@@ -23,8 +23,8 @@ var fs = require("fs");
 var spotify = new Spotify(keys.spotify);
 
 
-var command = process.argv[2]
-var searchTerm = process.argv.slice(3).join(" ")
+var command = process.argv[2];
+var searchTerm = process.argv.slice(3).join(" ");
 
 // FUNCTIONS
 // =====================================
