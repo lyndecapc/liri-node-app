@@ -39,7 +39,7 @@ If the user doesn't type a movie in, the program will return information for the
 When do-what-it-says command is run:
 A random.txt file with the movie-this command will return results for the movie "Major League"
 
-Technologies Used
+Technologies Used:
 JavaScript
 Node.js
 Spotify API
@@ -54,6 +54,7 @@ The following video demonstrates six different cases using the liri node app and
 4. do-what-it-says
 5. movie-this (with no movie entered so as information for the default movie, "Mr. Nobody" is retrieved)
 6. spotify-this-song (with no song name entered so as information for the default song, "We are the Champions" is loaded)
+
 To view the video demonstration of the liri-node-app, follow the link below and choose video player for Google. 
 https://drive.google.com/file/d/1ybhquDhCVrYTho7IwVF5tXpIObqP7Wy8/view
 
