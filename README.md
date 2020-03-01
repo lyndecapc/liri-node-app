@@ -22,7 +22,7 @@ When spotify-this-song command is used the following information will be returne
 2. The song's name
 3. A preview link of the song from Spotify
 4. The album that the song is from
-If no song is provided then your program will default to "The Sign" by Ace of Base.
+If no song is provided then your program will default to "We are the Champions"
 
 When movie-this command is used the following information will be returned:
 1. Title of the movie.
