@@ -36,7 +36,7 @@ When movie-this command is used the following information will be returned:
 If the user doesn't type a movie in, the program will return information for the movie 'Mr. Nobody.
 
 When do-what-it-says command is run:
-A random.txt file with search for spotify-this-song "We Are the Champions." This will give you the spotify results of "We are the Champions"
+A random.txt file with the movie-this command that will return results for the movie "Major League"
 
 Technologies Used
 JavaScript
