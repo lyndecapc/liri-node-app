@@ -1,18 +1,16 @@
 # liri-node-app
-Language Interpretation and Recognition Interface for Coding Bootcamp
-
-https://github.com/lyndecapc/liri-node-app
-
-How to use: 
-Use node to run the liri.js file with one of the following comands. Follow the command with text for what song, movie, or concert you would like to search. Example searches and a video demonstration follow. 
+LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives back data. The user has the option of using four commands in conjuntion with specific parameters associated with the commands. The Commands are:
 
 Liri Node Commands:
 1. concert-this
 2. spotify-this-song
 3. movie-this
 4. do-what-it-says
+
 When running a command follow it by desired text/search.
-For Example: node liri.js movie-this The Last of the Mohicans
+For Example: 
+
+node liri.js movie-this The Last of the Mohicans
 
 When concert-this command is used the following information will be returned:
 1. Name of the venue
